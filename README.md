@@ -44,7 +44,22 @@ A interface do usuário é a ponte entre a inteligência artificial (MindAI) e o
 
 ---
 
-## 4. Alinhamento com os Objetivos do Projeto
+## 4. Considerações sobre o Protótipo e Próximos Passos
+
+Esta seção detalha o escopo atual do protótipo, focando na funcionalidade e no *design*.
+
+### Testes de Interface (Streamlit)
+
+Inicialmente, a interface foi desenvolvida e testada utilizando a biblioteca **Streamlit**. Embora o Streamlit tenha sido rápido para prototipagem inicial e validação da lógica do **MindAI** (visão computacional), optamos por migrar para **Next.js/React** para criar uma experiência de usuário mais rica, escalável e com *design* profissional.
+
+### Uso do Firebase e Escopo Atual
+
+É importante notar que o projeto atual concentra **100% da sua funcionalidade** no código de **Visão Computacional** e na lógica do **Genkit/Aura**.
+
+O uso do **Firebase** neste momento é estritamente para o "enfeite" e estrutura da interface (autenticação de *mockup*, *design* de tela, etc.). Ele não está sendo utilizado para armazenamento de dados, segurança ou funções de *backend* complexas de produção. O foco é a **demonstração do *core* do MindAI e da interação com a Aura.**
+
+---
+## 5. Alinhamento com os Objetivos do Projeto
 
 Este protótipo atende diretamente a diversos **objetivos específicos** do Harmony AI:
 
@@ -54,7 +69,7 @@ Este protótipo atende diretamente a diversos **objetivos específicos** do Harm
 
 ---
 
-## 5. Como Rodar o Protótipo
+## 6. Como Rodar o Protótipo
 
 Siga os passos abaixo para executar o projeto localmente:
 
