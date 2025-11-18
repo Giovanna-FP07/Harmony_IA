@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "breathing-exercise",
+      "description": "A person meditating peacefully by a calm lake.",
+      "imageUrl": "https://images.unsplash.com/photo-1715550343388-7f26f12ba63a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZWRpdGF0aW9uJTIwbGFrZXxlbnwwfHx8fDE3NjM0MTE3MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "meditation lake"
+    },
+    {
+      "id": "stretching-video",
+      "description": "A person doing yoga stretches in a bright, airy room.",
+      "imageUrl": "https://images.unsplash.com/photo-1608404862898-ca7de5c2eb4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx5b2dhJTIwc3RyZXRjaHxlbnwwfHx8fDE3NjM0MTE3MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yoga stretch"
+    },
+    {
+      "id": "relaxing-music",
+      "description": "Headphones resting on a wooden table with a blurred natural background.",
+      "imageUrl": "https://images.unsplash.com/photo-1607184621566-351b36d442b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoZWFkcGhvbmVzJTIwbmF0dXJlfGVufDB8fHx8MTc2MzQxMTcwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headphones nature"
+    },
+    {
+      "id": "guided-meditation",
+      "description": "Sunset over a tranquil mountain range.",
+      "imageUrl": "https://images.unsplash.com/photo-1519414442781-fbd745c5b497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMHN1bnNldHxlbnwwfHx8fDE3NjMzNjQxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain sunset"
+    },
+    {
+      "id": "morning-yoga",
+      "description": "A person practicing yoga on a beach at sunrise.",
+      "imageUrl": "https://images.unsplash.com/photo-1533012562945-b003ce1d3269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhY2glMjB5b2dhfGVufDB8fHx8MTc2MzM3NDU2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach yoga"
+    },
+    {
+      "id": "ambient-sounds",
+      "description": "A dense forest with light filtering through the trees.",
+      "imageUrl": "https://images.unsplash.com/photo-1462290625486-c142817fb94d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb3Jlc3QlMjBsaWdodHxlbnwwfHx8fDE3NjMzNzE0MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest light"
+    }
+  ]
+}
