@@ -31,7 +31,7 @@ Este módulo é o coração da detecção de bem-estar e baseia-se no pilar de *
 
 A interface do usuário é a ponte entre a inteligência artificial (MindAI) e o trabalhador. Ela é construída com um *stack* moderno, focado em performance e experiência do desenvolvedor.
 
-### Stack de Desenvolvimento
+### 3.1 Stack de Desenvolvimento
 
 | Tecnologia | Função Essencial | Pilar do Projeto |
 | :--- | :--- | :--- |
@@ -41,6 +41,14 @@ A interface do usuário é a ponte entre a inteligência artificial (MindAI) e o
 | **Tailwind CSS** | Estilização rápida, consistente e utilitária (Utility-first CSS). | - |
 | **ShadCN UI** | Base de componentes (botões, cards) para um design limpo e acessível. | Acessibilidade e Design Universal |
 | **Genkit (Google)** | Gerencia a IA conversacional da **Aura** e a lógica de intervenção. | Inteligência Artificial e ML |
+
+### 3.2. Prototipagem e Validação (Streamlit)
+
+Para a rápida construção e validação da lógica de Visão Computacional do Módulo MindAI, utilizamos a biblioteca **Streamlit**.
+
+* **Finalidade:** Permite a execução imediata do código Python (*app.py, detection_logic.py, utils.py*) e a visualização em tempo real do feed de vídeo e da deteção de landmarks corporais e faciais.
+* **Localização do Código:** Os arquivos de execução do Streamlit e MediaPipe estão localizados na pasta *streamlit_app* (ou similar).
+* **Status:** Esta versão foi essencial para o desenvolvimento, mas o front-end final será implementado em Next.js/React.
 
 ---
 
@@ -73,6 +81,8 @@ Este protótipo atende diretamente a diversos **objetivos específicos** do Harm
 
 Siga os passos abaixo para executar o projeto localmente:
 
+### Opção 1: Executar o Protótipo de Interface (Next.js/React)
+
 1.  **Clone o repositório:**
     ```bash
     git clone [URL_DO_REPOSITORIO]
@@ -94,3 +104,32 @@ Siga os passos abaixo para executar o projeto localmente:
     ```
 
 > O aplicativo estará disponível em **https://prototipo-interface-harmony-ia-e-au.vercel.app/**.
+
+### Opção 2: Executar o Módulo MindAI (Streamlit) 
+
+Para testar a lógica de Visão Computacional em tempo real:
+
+1.  **Acesse a pasta do Streamlit:**
+     ```bash
+    cd [NOME_DA_SUA_PASTA_STREAMLIT] # Ex: cd streamlit_app
+      ```
+    
+2.  **Crie e ative o ambiente virtual (Recomendado):**
+     ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
+      ```
+    
+3.  **Instale as dependências:**
+     ```bash
+    pip install -r requirements.txt
+      ```
+    
+4.  **Configure a chave Gemini:**
+    * Crie o arquivo `.streamlit/secrets.toml`.
+    * Adicione sua chave de API.
+    
+5.  **Inicie o Streamlit:**
+     ```bash
+    streamlit run app.py
+      ```
