@@ -1,0 +1,6 @@
+streamlit 
+google-genai
+opencv-python
+mediapipe
+numpy
+simpleaudio
